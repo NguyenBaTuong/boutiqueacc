@@ -1,1 +1,92 @@
 /* You can add global styles to this file, and also import other style files */
+@import  "../node_modules/@fortawesome/fontawesome-free/css/all.min.css";
+
+:root {
+    --white-color: #fff;
+    --black-color: #000;
+    --text-color: #333;
+    --primary-color: #EE4D3d;
+    --border-color: #dbdbdb;
+/*
+    --nav-height: 34px;
+    --header-height: 120px;
+    --header-width-search-height: calc(var(----header-height) - var(--nav-height)); */
+}
+
+* {
+    box-sizing: inherit;
+}
+
+html {
+    font-size: 62.5%;
+    line-height: 1.6rem;
+    font-family: "Roboto Condensed", sans-serif;
+    box-sizing: border-box;
+    color: var(--text-color);
+}
+body {
+    margin: 0;
+}
+.grid {
+    width: 1200px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+.grid__full {
+    width: 100%;
+    margin: 0 auto;
+}
+
+/* column  */
+.grid__row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -5px;
+    margin-right: -5px;
+}
+/* col size(col)-part */
+.grid__col-1p-12c {
+    padding-left: 5px;
+    padding-right: 5px;
+    width: 100%;
+}
+.grid__col-4p-3c {
+    padding-left: 5px;
+    padding-right: 5px;
+    width: 25%;
+}
+
+.grid__col-2p-4c {
+  padding-left: 5px;
+  padding-right: 5px;
+  width: 33.3334%;
+}
+
+.grid__col-2p-8c {
+  padding-left: 5px;
+  padding-right: 5px;
+  width: 66.6666%;
+}
+/* btn  */
+.btn {
+    background-color: var(--white-color);
+    border: 1px solid rgb(43, 41, 41);
+    border-radius: 30px;
+    padding: 10px 20px;
+}
+.btn:hover {
+    background-color: var(--black-color);
+    color: var(--white-color);
+}
+
+/* animation */
+
+@keyframes opac {
+    from {
+        opacity: 0.5;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
