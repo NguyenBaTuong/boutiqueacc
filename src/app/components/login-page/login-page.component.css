@@ -1,0 +1,149 @@
+.login--backgroud {
+  background-color: rgb(238, 77, 45);
+}
+
+.login {
+  min-height: 500px;
+  padding: 50px 0;
+  display: flex;
+}
+
+.login__i4 {
+  color: var(--white-color);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 20px;
+  margin: auto;
+}
+
+.login__i4-img {
+  width: 230px;
+  height: 230px;
+}
+
+.login__i4-desc {
+  font-size: 2.2rem;
+}
+
+
+.login__form {
+  padding: 0 80px;
+}
+
+.login__form-content {
+  background-color: #ffff;
+  width: 400px;
+  padding: 15px 40px;
+  border-radius: 4px;
+}
+
+.login__form-title {
+  color: var(--text-color);
+  font-size: 2rem;
+  margin: 10px 0;
+}
+
+.login__form-list-input {
+  display: flex;
+  flex-direction: column;
+}
+
+.login__form-input {
+  border: 1px solid rgb(216, 208, 208);
+  height: 40px;
+  outline: none;
+  margin: 10px 0;
+  border-radius: 2px;
+}
+
+.login__form-btn {
+  width: 100%;
+  padding: 10px 50px;
+  margin: 10px 0;
+}
+
+.login__form-or {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0 10px 0;
+}
+
+.login__form-or-line {
+  height: 1px;
+  background-color: rgb(224, 217, 217);
+  flex: 4.5;
+}
+
+.login__form-or-text {
+  font-size: 1.2rem;
+  color: #ccc;
+  position: relative;
+  text-align: center;
+  flex: 3;
+}
+
+.login__form-mxh {
+  padding-left: 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.login__form-mxh-item {
+  list-style: none;
+  width: 150px;
+}
+
+.login__form-mxh-link {
+  text-decoration: none;
+  color: var(--white-color);
+  padding: 10px 10px;
+  background-color: rgb(45, 131, 243);
+  border-radius: 2px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.login__form-mxh-link:hover {
+  animation: opac ease-in 1s;
+}
+
+.login__form-mxh-link-icon {
+  font-size: 2.2rem;
+}
+
+.login__form-mxh-link-title {
+  font-size: 1.6rem;
+}
+
+.login__form-support {
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.2rem;
+}
+
+.login__form-support-link {
+  text-decoration: none;
+  color: rgb(233, 64, 64);
+}
+
+.login__form-next {
+  padding: 10px 0;
+  text-align: center;
+}
+
+.login__form-next-desc {
+  color: #ccc;
+  font-size: 1.4rem;
+  margin: 0;
+}
+
+.login__form-next-btn {
+  text-decoration: none;
+  color: rgb(233, 64, 64);
+  font-size: 1.5rem;
+  padding: 10px;
+}
+

@@ -1,0 +1,154 @@
+.register--backgroud {
+  background-color: rgb(238, 77, 45);
+}
+
+.register {
+  min-height: 500px;
+  padding: 50px 0;
+  display: flex;
+}
+
+.register__i4 {
+  color: var(--white-color);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 20px;
+  margin: auto;
+}
+
+.register__i4-img {
+  width: 230px;
+  height: 230px;
+}
+
+.register__i4-desc {
+  font-size: 2.2rem;
+}
+
+
+.register__form {
+  padding: 0 80px;
+}
+
+.register__form-content {
+  background-color: #ffff;
+  width: 400px;
+  padding: 15px 40px;
+  border-radius: 4px;
+}
+
+.register__form-title {
+  color: var(--text-color);
+  font-size: 2rem;
+  margin: 10px 0;
+}
+
+.register__form-list-input {
+  display: flex;
+  flex-direction: column;
+}
+
+.register__form-input {
+  border: 1px solid rgb(216, 208, 208);
+  height: 40px;
+  outline: none;
+  margin: 10px 0;
+  border-radius: 2px;
+}
+
+.register__form-btn {
+  width: 100%;
+  padding: 10px 50px;
+  margin: 10px 0;
+}
+
+.register__form-or {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0 10px 0;
+}
+
+.register__form-or-line {
+  height: 1px;
+  background-color: rgb(224, 217, 217);
+  flex: 4.5;
+}
+
+.register__form-or-text {
+  font-size: 1.2rem;
+  color: #ccc;
+  position: relative;
+  text-align: center;
+  flex: 3;
+}
+
+.register__form-mxh {
+  padding-left: 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.register__form-mxh-item {
+  list-style: none;
+  width: 150px;
+}
+
+.register__form-mxh-link {
+  text-decoration: none;
+  color: var(--white-color);
+  padding: 10px 10px;
+  background-color: rgb(45, 131, 243);
+  border-radius: 2px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.register__form-mxh-link:hover {
+  animation: opac ease-in 1s;
+}
+
+.register__form-mxh-link-icon {
+  font-size: 2.2rem;
+}
+
+.register__form-mxh-link-title {
+  font-size: 1.6rem;
+}
+
+.register__form-note {
+  padding-top: 5px;
+}
+
+.register__form-note-desc {
+  font-size: 1.2rem;
+  color: var(--text-color);
+  font-weight: 400;
+  text-align: center;
+}
+
+.register__form-note-desc-link {
+  color: rgb(233, 64, 64);
+  font-size: 1.3rem;
+  text-decoration: none;
+}
+
+.register__form-next {
+  padding: 10px 0;
+  text-align: center;
+}
+
+.register__form-next-desc {
+  color: #ccc;
+  font-size: 1.4rem;
+  margin: 0;
+}
+
+.register__form-next-btn {
+  text-decoration: none;
+  color: rgb(233, 64, 64);
+  font-size: 1.5rem;
+  padding: 10px;
+}
