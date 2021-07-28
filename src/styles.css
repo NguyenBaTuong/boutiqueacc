@@ -74,6 +74,18 @@ body {
   width: 66.6666%;
 }
 
+.grid__col-2p-2c {
+  padding-left: 5px;
+  padding-right: 5px;
+  width: 16.6667%;
+}
+
+.grid__col-2p-10c {
+  padding-left: 5px;
+  padding-right: 5px;
+  width: 83.3333%;
+}
+
 .grid__col-2p-6c {
   padding-left: 5px;
   padding-right: 5px;
@@ -112,4 +124,90 @@ body {
   to {
       opacity: 1;
   }
+}
+
+
+/* nav ad  */
+.frame {
+  padding-bottom: 10px;
+}
+
+.frame__nav {
+
+}
+
+.frame__nav-list {
+
+}
+
+.frame__nav-item {
+  color: var(--text-color);
+}
+
+.frame__nav-item + .frame__nav-item{
+  margin-top: 30px;
+}
+
+.frame__nav__title {
+  font-size: 2rem;
+  font-weight: 400;
+  margin: 14px 0 14px 0;
+
+}
+
+.frame__nav__list-item {
+  padding-left: 0;
+}
+
+
+.frame__nav__item {
+  list-style: none;
+}
+
+
+.frame__nav__item-link {
+  display: block;
+  padding: 10px 0;
+  text-decoration: none;
+  color: var(--text-color);
+}
+
+.frame__nav__item-link:hover {
+  color: rgb(132, 220, 228);
+}
+
+.frame__nav__item-icon {
+  padding-right: 10px;
+  font-size: 2rem;
+  min-width: 25px;
+}
+
+.frame__nav__item-title {
+  font-size: 1.6rem;
+}
+
+
+.frame__content {
+
+}
+
+.frame__content-title {
+  position: relative;
+  font-size: 3rem;
+  margin: 14px 0 8px 0;
+  padding-bottom: 35px;
+}
+
+.frame__content-title::before {
+  content: "";
+  position: absolute;
+  top: calc(100% - 4px);
+  height: 4px;
+  width: 100px;
+  background-color: rgb(219, 56, 105);
+}
+
+
+.frame__content-son {
+
 }

@@ -1,0 +1,76 @@
+.information-i4 {
+  padding-bottom: 20px;
+}
+
+.information-i4-banel {
+  height: 340px;
+  background-image: url(https://nick.vn/assets/frontend/images/unknown-cover.jpg);
+  background-size: cover;
+}
+
+.information-i4-user {
+  margin-top: -130px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.information-i4-user-img {
+  height: 260px;
+  width: 260px;
+  border: 1px solid rgb(216, 210, 210);
+  border-radius: 2px;
+}
+
+.information-i4-user-desc {
+  text-align: center;
+  color: var(--text-color);
+}
+
+.information-i4-user-id {
+  font-size: 2.4rem;
+}
+
+.information-i4-user-name {
+  font-size: 2.2rem;
+}
+
+.information-i4-user-monney {
+  color: rgb(233, 64, 64);
+  font-size: 2rem;
+  font-weight: 300;
+}
+
+
+/* details  */
+.information-details {
+  padding-top: 20px;
+  width: 100%;
+  font-size: 1.6rem;
+}
+
+.information-details-item {
+  display: block;
+  padding: 10px 0;
+  border-bottom: 1px solid rgb(207, 196, 196);
+}
+
+.information-details-item:first-child {
+  border-top: 1px solid rgb(207, 196, 196);
+}
+
+.information-details-item:last-child {
+  border-bottom: none;
+}
+
+.information-details-item-title {
+  width: 30%;
+  display: inline-block;
+}
+
+.information-details-item-content {
+  width: 70%;
+  display: inline-block;
+}
